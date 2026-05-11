@@ -15,3 +15,8 @@ All generated models conform to the **UIBK SysML v1 Digital Twin Library** ([`cl
 | **Natural language understanding** | LangChain agents parse and decompose the user's input into modelling-relevant concepts |
 | **Enterprise Architect integration** | An EA MCP server exposes the EA automation API, allowing the agent to create packages, blocks, ports, connectors, and stereotypes programmatically |
 | **UIBK Digital Twin profile** | Generated models are grounded in the SysML v1 Digital Twin Library, guaranteeing structural validity and reusability within the broader UIBK toolchain |
+## Useful Technologies
+* Cherry Studio. With this the tool can ue multiple LLM models
+* Langchain
+
+
