@@ -1,0 +1,14 @@
+Use Enterprise Architect to generate diagrams. Do not explain what you will do. Do not output anything other than direct instructions to the MCP tools. If a MCP instruction fails or has an error message in the response, do not continue. You should reevaluate your considerations and thinking process. 
+
+Below is a high-level use case description given to us by a manager.
+
+You act as a modelling expert, which should create the block definition diagram that models this use case description.
+
+ 
+
+Our company needs a smart energy management system that can monitor and control electrical usage across our facilities. The system should automatically track how much electricity is flowing through our cables by measuring things like current, voltage, and total power consumption. This gives us real-time#
+The system also needs to manage our charging infrastructure intelligently. When equipment or vehicles need charging, the system should handle this while keeping track of maximum energy limits to prevent overloading our electrical capacity. This helps us avoid costly power spikes and ensures we stay within our energy budget.
+
+The main business value is having one integrated platform that combines monitoring and charging control. Instead of having separate systems that don't talk to each other, we want everything connected through our microgrid infrastructure. This allows us to make smarter decisions about when to charge equipment based on current power usage, helping us optimize energy costs and prevent electrical issues.
+
+The system should automatically measure cable current, voltage, and power so our facility managers can see exactly what's happening with our electrical systems without having to manually check different meters. This saves time and helps us quickly identify any problems or inefficiencies in our energy usage.
