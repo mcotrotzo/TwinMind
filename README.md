@@ -18,5 +18,5 @@ All generated models conform to the **UIBK SysML v1 Digital Twin Library** ([`cl
 ## Useful Technologies
 * Cherry Studio. With this the tool can ue multiple LLM models
 * Langchain
-
+* MCP EA https://www.sparxsystems.jp/en/MCP/
 
