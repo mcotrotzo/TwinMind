@@ -1,0 +1,59 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="D925073D79" name="DigitalTwinProfile" version="1.0" notes="DigitalTwinProfile"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="DigitalTwin_BlocksConnections" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DigitalTwinProfile::hasComponent(UML::Composition)" type="" description="" unit="" values="" default="hasComponent"/>
+					<Tag name="DigitalTwinProfile::hasDataBase(UML::Composition)" type="" description="" unit="" values="" default="hasDataBase"/>
+					<Tag name="DigitalTwinProfile::hasDevice(UML::Composition)" type="" description="" unit="" values="" default="hasDevice"/>
+					<Tag name="DigitalTwinProfile::hasMeasurement(UML::Composition)" type="" description="" unit="" values="" default="hasMeasurement"/>
+					<Tag name="DigitalTwinProfile::hasStrategy(UML::Composition)" type="" description="" unit="" values="" default="hasStrategy"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DigitalTwin_InstanceConnections" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DigitalTwinProfile::feedbackTopic(UML::Connector)" type="" description="" unit="" values="" default="feedback"/>
+					<Tag name="DigitalTwinProfile::measures(UML::Connector)" type="" description="" unit="" values="" default="measuresMeasurement"/>
+					<Tag name="DigitalTwinProfile::sendsTo(UML::Connector)" type="" description="" unit="" values="" default="sendsToDatabase"/>
+					<Tag name="DigitalTwinProfile::triggers(UML::Connector)" type="" description="" unit="" values="" default="triggersStrategy"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DigitalTwin_Instances" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DigitalTwinProfile::ComponentInstance(UML::Property)" type="" description="" unit="" values="" default="ComponentInstance"/>
+					<Tag name="DigitalTwinProfile::ConstInstance(UML::Attribute)" type="" description="" unit="" values="" default="ConstInstance"/>
+					<Tag name="DigitalTwinProfile::DataBaseInstance(UML::Property)" type="" description="" unit="" values="" default="DataBasInstance"/>
+					<Tag name="DigitalTwinProfile::DeviceInstance(UML::Property)" type="" description="" unit="" values="" default="DeviceInstance"/>
+					<Tag name="DigitalTwinProfile::MeasurementInstance(UML::Attribute)" type="" description="" unit="" values="" default="MeasurementInstance"/>
+					<Tag name="DigitalTwinProfile::StrategyInstance(UML::Property)" type="" description="" unit="" values="" default="StrategyInstance"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DigitalTwinDefintions" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DigitalTwinProfile::Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
+					<Tag name="DigitalTwinProfile::DataBase(UML::Class)" type="" description="" unit="" values="" default="DataBase"/>
+					<Tag name="DigitalTwinProfile::Device(UML::Class)" type="" description="" unit="" values="" default="Device"/>
+					<Tag name="DigitalTwinProfile::Strategy(UML::Class)" type="" description="" unit="" values="" default="Strategy"/>
+					<Tag name="DigitalTwinProfile::Twin(UML::Class)" type="" description="" unit="" values="" default="Twin"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

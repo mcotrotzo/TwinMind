@@ -8,6 +8,16 @@ The user provides a plain-text description of a system — for example, a microg
 
 All generated models conform to the **UIBK SysML v1 Digital Twin Library** ([`cloud-DTs/SysML2CMAdapter`](https://github.com/cloud-DTs/SysML2CMAdapter)), ensuring that the output is consistent with the established Digital Twin profile used at the University of Innsbruck — including stereotypes, tagged values, and architectural conventions defined in that library.
 
+## Importing the SysML Library into EA
+Import the file ./SysMlLibrary/dt_profile_UIBK as descirbed in
+https://sparxsystems.com/enterprise_architect_user_guide/17.1/modeling_frameworks/importmdgtechnologies.html
+
+After that go to Start -> Perspective -> Settings -> Personal Sets then you have this settings in the following image
+![plot](./importingLibrary.png)
+Here you cann add a new Perspective like this Example "aaa". For this perspective tick the UIBK profile on the right side.
+After that go to the diagram:
+![plot](./chPersp.png)
+Here you can click on the menu button then you can select "Change Persepective". Then select your created Perspective like "aaa". After that you can click again and select the profile. After that you can use the components of it.
 ## Key Components
 
 | Component | Role |

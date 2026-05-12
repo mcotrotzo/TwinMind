@@ -1,0 +1,271 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="EE80778104" name="DigitalTwinProfile" version="1.0" notes="DigitalTwinProfile"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="_Component" metatype="_Component" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_ComponentInstance" metatype="_ComponentInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="aggregation" value="none"/>
+						<Property name="default" value=""/>
+						<Property name="isComposite" value=""/>
+						<Property name="isDerived" value="false"/>
+						<Property name="isDerivedUnion" value="false"/>
+						<Property name="isID" value="false"/>
+						<Property name="isReadOnly" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_ConstInstance" metatype="_ConstInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="_TwinProperty" baseStereotypes="_TwinProperty"/>
+			<Stereotype name="_DataBase" metatype="_DataBase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_DataBaseInstance" metatype="_DataBaseInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="aggregation" value="none"/>
+						<Property name="default" value=""/>
+						<Property name="isComposite" value=""/>
+						<Property name="isDerived" value="false"/>
+						<Property name="isDerivedUnion" value="false"/>
+						<Property name="isID" value="false"/>
+						<Property name="isReadOnly" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_Device" metatype="_Device" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_DeviceInstance" metatype="_DeviceInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="aggregation" value="none"/>
+						<Property name="default" value=""/>
+						<Property name="isComposite" value=""/>
+						<Property name="isDerived" value="false"/>
+						<Property name="isDerivedUnion" value="false"/>
+						<Property name="isID" value="false"/>
+						<Property name="isReadOnly" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_MeasurementInstance" metatype="_MeasurementInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="_TwinProperty" baseStereotypes="_TwinProperty"/>
+			<Stereotype name="_Strategy" metatype="_Strategy" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_StrategyInstance" metatype="_StrategyInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="aggregation" value="none"/>
+						<Property name="default" value=""/>
+						<Property name="isComposite" value=""/>
+						<Property name="isDerived" value="false"/>
+						<Property name="isDerivedUnion" value="false"/>
+						<Property name="isID" value="false"/>
+						<Property name="isReadOnly" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_Twin" metatype="_Twin" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="_TwinProperty" metatype="_TwinProperty" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Attribute">
+						<Property name="_makeComposite" value="True"/>
+						<Property name="_Runstate" value="0"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Component" metatype="Component" instanceMode="Property" instanceType="ComponentInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_Component" baseStereotypes="_Component"/>
+			<Stereotype name="ComponentInstance" metatype="ComponentInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_ComponentInstance" baseStereotypes="_ComponentInstance"/>
+			<Stereotype name="ConstInstance" metatype="ConstInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_ConstInstance" baseStereotypes="_ConstInstance">
+				<TaggedValues>
+					<Tag name="dataType" type="enumeration" description="" unit="" values="INTEGER,DOUBLE,STRING" default="INT"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DataBase" metatype="DataBase" instanceMode="Property" instanceType="DataBaseInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_DataBase" baseStereotypes="_DataBase"/>
+			<Stereotype name="DataBaseInstance" metatype="DataBaseInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_DataBaseInstance" baseStereotypes="_DataBaseInstance">
+				<TaggedValues>
+					<Tag name="dataBaseTier" type="enumeration" description="" unit="" values="HOT,COLD" default="HOT"/>
+					<Tag name="retentionPeriod" type="" description="" unit="" values="" default="30"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Device" metatype="Device" instanceMode="Property" instanceType="DeviceInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_Device" baseStereotypes="_Device"/>
+			<Stereotype name="DeviceInstance" metatype="DeviceInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_DeviceInstance" baseStereotypes="_DeviceInstance"/>
+			<Stereotype name="feedbackTopic" metatype="feedbackTopic" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_StrategyInstance"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_DeviceInstance"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="hasComponent" metatype="hasComponent" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_Component"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_Twin"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Aggregation">
+						<Property name="_lineStyle" value="treeH"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="hasDataBase" metatype="hasDataBase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_DataBase"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_Twin"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Aggregation">
+						<Property name="_lineStyle" value="treeH"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="hasDevice" metatype="hasDevice" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_Device"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_Twin"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Aggregation">
+						<Property name="_lineStyle" value="treeH"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="hasMeasurement" metatype="hasMeasurement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_Component"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Aggregation">
+						<Property name="_lineStyle" value="treeH"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="hasStrategy" metatype="hasStrategy" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_Strategy"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_Twin"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Aggregation">
+						<Property name="_lineStyle" value="treeH"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="MeasurementInstance" metatype="MeasurementInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_MeasurementInstance" baseStereotypes="_MeasurementInstance">
+				<TaggedValues>
+					<Tag name="dataType" type="enumeration" description="" unit="" values="INTEGER,DOUBLE,STRING" default="INT"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="measures" metatype="measures" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_DeviceInstance"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_ComponentInstance"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="measurement"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="sendsTo" metatype="sendsTo" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="sorce" constraint="DigitalTwinProfile::_DeviceInstance"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_DataBaseInstance"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Stereotype1" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="Strategy" metatype="Strategy" instanceMode="Property" instanceType="StrategyInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_Strategy" baseStereotypes="_Strategy">
+				<TaggedValues>
+					<Tag name="autoDeploy" type="enumeration" description="" unit="" values="True,False" default="False"/>
+					<Tag name="pathToCode" type="" description="" unit="" values="" default=""/>
+					<Tag name="type" type="enumeration" description="" unit="" values="LAMBDA,CONTAINER" default="LAMBDA"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="StrategyInstance" metatype="StrategyInstance" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_StrategyInstance" baseStereotypes="_StrategyInstance">
+				<TaggedValues>
+					<Tag name="customPayload" type="" description="" unit="" values="" default="{&quot;message&quot;:&quot;HelloWorld&quot;}"/>
+					<Tag name="customTopic" type="" description="" unit="" values="" default=""/>
+					<Tag name="feedbackPayLoadType" type="enumeration" description="" unit="" values="strategyResult,custom" default="custom"/>
+					<Tag name="feedBackTopicType" type="enumeration" description="" unit="" values="EXTERNAL,INTERNAL,NONE" default="NONE"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="triggers" metatype="triggers" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<metaconstraints>
+					<metaconstraint umlRole="source" constraint="DigitalTwinProfile::_DeviceInstance"/>
+					<metaconstraint umlRole="target" constraint="DigitalTwinProfile::_StrategyInstance"/>
+				</metaconstraints>
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="_tagGroupings" value="lhsProperty=leftHandSide;rhsProperty=rightHandSide;"/>
+						<Property name="_tagGroups" value="leftHandSide,rightHandSide"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="operator" type="enumeration" description="" unit="" values="&amp;_eq_^&amp;_eq_^,!&amp;_eq_^,&lt;&amp;_eq_^,&lt;,&gt;,&gt;&amp;_eq_^" default=""/>
+					<Tag name="lhsProperty"/>
+					<Tag name="rhsProperty"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Twin" metatype="Twin" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="_Twin" baseStereotypes="_Twin">
+				<TaggedValues>
+					<Tag name="grafanaUrl" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes>
+			<TaggedValueType property="measurement" description="" notes="Type=RefGUID;Stereotypes=_MeasurementInstance;"/>
+			<TaggedValueType property="lhsProperty" description="" notes="Type=RefGUID;Stereotypes=_TwinProperty;"/>
+			<TaggedValueType property="rhsProperty" description="" notes="Type=RefGUID;Stereotypes=_TwinProperty;"/>
+		</TaggedValueTypes>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
